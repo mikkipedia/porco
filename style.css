@@ -99,3 +99,28 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+/* Styly pro stránku "capacity exceeded" */
+.sold-out-page {
+    background-color: black;
+    color: #ff33a1; /* Růžová barva */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sold-out-page h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .sold-out-page h1 {
+        font-size: 4rem;
+    }
+}
